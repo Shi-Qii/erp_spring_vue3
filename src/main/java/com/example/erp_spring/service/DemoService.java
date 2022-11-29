@@ -8,6 +8,6 @@ public class DemoService {
 
 
     public String getMessage() {
-        return "Hello Docker ";
+        return "Hello Azure ";
     }
 }
