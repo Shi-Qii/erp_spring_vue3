@@ -15,7 +15,7 @@
     <name>erp_spring</name>
     <description>erp_spring</description>
     <properties>
-        <java.version>1.8</java.version>
+        <java.version>11</java.version>
     </properties>
     <dependencies>
 
@@ -35,12 +35,16 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-jdbc</artifactId>
         </dependency>
+<!--        <dependency>-->
+<!--            <groupId>io.jsonwebtoken</groupId>-->
+<!--            <artifactId>jjwt-api</artifactId>-->
+<!--            <version>0.11.2</version>-->
+<!--        </dependency>-->
         <dependency>
             <groupId>io.jsonwebtoken</groupId>
-            <artifactId>jjwt-api</artifactId>
-            <version>0.11.2</version>
+            <artifactId>jjwt</artifactId>
+            <version>0.9.1</version>
         </dependency>
-
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
